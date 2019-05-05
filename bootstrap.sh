@@ -132,7 +132,7 @@ echo "---------------------"
 echo "Setting up database for WordPress"
 echo "---------------------"
 echo "Setting up MySQL Database"
-echo "CREATE USER IF NOT EXISTS 'vagrantwp'@'localhost' IDENTIFIED BY 'strongpassword'" | mysql -uroot -proot
+echo "CREATE USER IF NOT EXISTS 'vagrantwp'@'localhost' IDENTIFIED BY 'verystrongpassword'" | mysql -uroot -proot
 echo "CREATE DATABASE IF NOT EXISTS  wpsite" | mysql -uroot -proot
 echo "GRANT ALL ON vagrantwp.* TO 'wpsite'@'localhost'" | mysql -uroot -proot
 echo "FLUSH PRIVILEGES" | mysql -uroot -proot
